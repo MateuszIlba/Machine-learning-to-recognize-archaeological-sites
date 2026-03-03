@@ -21,7 +21,16 @@ The achieved stabilization of the loss function after 250 epochs confirms that t
 <img width="1590" height="673" alt="image" src="https://github.com/user-attachments/assets/1ed91a24-c908-4305-a466-5f4b70dd3a4b" />
 Fig 1. Decreasing loss value on the training and validation sets (val)
 <br/><br/>
-The weight matrix of the optimized Mask R-CNN model, developed over 250 training epochs, was exported and secured in an external research data repository. The binary file, containing the complete state of the trained convolutional layers and masking head weights, was deposited on the Zenodo platform https://doi.org/10.5281/zenodo.17053519
+The weight matrix of the optimized Mask R-CNN model, developed over 250 training epochs, was exported and secured in an external research data repository. The binary file, containing the complete state of the trained convolutional layers and masking head weights, was deposited on the Zenodo platform https://doi.org/10.5281/zenodo.17053519 <br/><br/><br/>
+
+## Descriptions
+
+- dataset.zip file containst sample filest with masks used for train model
+- custom.py - custom function to train model
+- detect.pl - try how model predict archeological sites
+- mrcnn - folder with specific modified scripts (libraries) <br/>
+Model run on Python 3.8 with tensorflow 2.4
+
 
 <br/><br/><br/>
 ## This research was funded by the National Science Centre, Poland under Grant no. 2024/08/X/ST10/00587
