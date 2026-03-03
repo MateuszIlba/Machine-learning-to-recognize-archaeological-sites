@@ -19,5 +19,11 @@ Monitoring the training process revealed a systematic decrease in the error valu
 The achieved stabilization of the loss function after 250 epochs confirms that the integrated physical terrain features (SAR intensity) and biological features (Rao’s Q) constitute a coherent input signal that the neural network in the TensorFlow environment can effectively interpret to automatically identify anthropogenic objects.
 
 <img width="1590" height="673" alt="image" src="https://github.com/user-attachments/assets/1ed91a24-c908-4305-a466-5f4b70dd3a4b" />
+Fig 1. Decreasing loss value on the training and validation sets (val)
+<br/><br/>
+The weight matrix of the optimized Mask R-CNN model, developed over 250 training epochs, was exported and secured in an external research data repository. The binary file, containing the complete state of the trained convolutional layers and masking head weights, was deposited on the Zenodo platform https://doi.org/10.5281/zenodo.17053519
 
-This research was funded by the National Science Centre, Poland under Grant no. 2024/08/X/ST10/00587
+<br/><br/><br/>
+## This research was funded by the National Science Centre, Poland under Grant no. 2024/08/X/ST10/00587
+<img width="3082" height="268" alt="logo-poziom-en" src="https://github.com/user-attachments/assets/3a3cd11d-a41a-4d37-89d1-8c4652f3a946" />
+
